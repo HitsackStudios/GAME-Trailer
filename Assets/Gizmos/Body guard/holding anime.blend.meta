@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: b08f7d5834612a34a8afe0200dc110a0
+timeCreated: 1511713881
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: chest
+    100004: Cube
+    100006: finger01_L
+    100008: finger01_R
+    100010: finger02_L
+    100012: finger02_R
+    100014: Finger_L
+    100016: Finger_R
+    100018: Foot_L
+    100020: Foot_R
+    100022: head
+    100024: //RootNode
+    100026: Leg_control_L
+    100028: Leg_control_R
+    100030: lower_arm_L
+    100032: lower_arm_R
+    100034: Lower_leg_L
+    100036: Lower_leg_R
+    100038: neck
+    100040: thump01_L
+    100042: thump01_R
+    100044: thump02_L
+    100046: thump02_R
+    100048: Toe_L
+    100050: Toe_R
+    100052: torso
+    100054: upper_arm_L
+    100056: upper_arm_R
+    100058: Upper_leg_L
+    100060: Upper_leg_R
+    400000: Armature
+    400002: chest
+    400004: Cube
+    400006: finger01_L
+    400008: finger01_R
+    400010: finger02_L
+    400012: finger02_R
+    400014: Finger_L
+    400016: Finger_R
+    400018: Foot_L
+    400020: Foot_R
+    400022: head
+    400024: //RootNode
+    400026: Leg_control_L
+    400028: Leg_control_R
+    400030: lower_arm_L
+    400032: lower_arm_R
+    400034: Lower_leg_L
+    400036: Lower_leg_R
+    400038: neck
+    400040: thump01_L
+    400042: thump01_R
+    400044: thump02_L
+    400046: thump02_R
+    400048: Toe_L
+    400050: Toe_R
+    400052: torso
+    400054: upper_arm_L
+    400056: upper_arm_R
+    400058: Upper_leg_L
+    400060: Upper_leg_R
+    4300000: Cube
+    7400000: Default Take
+    7400002: holding
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__character_texture_psd
+    second: {fileID: 2100000, guid: abca5d380d2b381458e97bc0636fe9a6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
