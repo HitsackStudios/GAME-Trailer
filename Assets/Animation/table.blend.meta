@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 09928fa8e2583fb409a06de80195badb
+timeCreated: 1513488330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: b_cover
+    100002: b_cover_001
+    100004: b_cover_002
+    100006: b_cover_003
+    100008: b_cover_004
+    100010: b_cover_005
+    100012: b_cover_006
+    100014: b_cover_007
+    100016: pages
+    100018: pages_001
+    100020: pages_002
+    100022: pages_003
+    100024: pages_004
+    100026: pages_005
+    100028: pages_006
+    100030: pages_007
+    100032: table
+    100034: //RootNode
+    400000: b_cover
+    400002: b_cover_001
+    400004: b_cover_002
+    400006: b_cover_003
+    400008: b_cover_004
+    400010: b_cover_005
+    400012: b_cover_006
+    400014: b_cover_007
+    400016: pages
+    400018: pages_001
+    400020: pages_002
+    400022: pages_003
+    400024: pages_004
+    400026: pages_005
+    400028: pages_006
+    400030: pages_007
+    400032: //RootNode
+    400034: table
+    2300000: b_cover
+    2300002: b_cover_001
+    2300004: b_cover_002
+    2300006: b_cover_003
+    2300008: b_cover_004
+    2300010: b_cover_005
+    2300012: b_cover_006
+    2300014: b_cover_007
+    2300016: pages
+    2300018: pages_001
+    2300020: pages_002
+    2300022: pages_003
+    2300024: pages_004
+    2300026: pages_005
+    2300028: pages_006
+    2300030: pages_007
+    2300032: table
+    3300000: b_cover
+    3300002: b_cover_001
+    3300004: b_cover_002
+    3300006: b_cover_003
+    3300008: b_cover_004
+    3300010: b_cover_005
+    3300012: b_cover_006
+    3300014: b_cover_007
+    3300016: pages
+    3300018: pages_001
+    3300020: pages_002
+    3300022: pages_003
+    3300024: pages_004
+    3300026: pages_005
+    3300028: pages_006
+    3300030: pages_007
+    3300032: table
+    4300000: b_cover_007
+    4300002: b_cover_006
+    4300004: b_cover_005
+    4300006: b_cover_004
+    4300008: b_cover_003
+    4300010: b_cover_002
+    4300012: b_cover_001
+    4300014: pages_007
+    4300016: pages_006
+    4300018: pages_005
+    4300020: pages_004
+    4300022: pages_003
+    4300024: pages_002
+    4300026: pages_001
+    4300028: pages
+    4300030: b_cover
+    4300032: table
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover1
+    second: {fileID: 2100000, guid: 6b1bef7d0a89b434db2d00944bf43cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover2
+    second: {fileID: 2100000, guid: c7caa742f0b82d348b059faf6b70dae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover3
+    second: {fileID: 2100000, guid: 381be2e15b9631747a21bdbb339faf83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover4
+    second: {fileID: 2100000, guid: 421d12b0afba3734d9d9f1837c27b894, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover5
+    second: {fileID: 2100000, guid: b05029c91e55f55429d9b0aeeebf9017, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover6
+    second: {fileID: 2100000, guid: 31c9349c876029f469412a0ccfbbade6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover7
+    second: {fileID: 2100000, guid: 078dcddba7cd0d4458189e28d3b3c79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cover8
+    second: {fileID: 2100000, guid: 884fa6a012bac734280a697dac1657c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: page1
+    second: {fileID: 2100000, guid: 02ec048938f363448a3f6ea472d78258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table
+    second: {fileID: 2100000, guid: 11ff129a59e15b840b61839f78b1fae8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
