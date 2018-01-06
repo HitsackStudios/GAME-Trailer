@@ -11,8 +11,11 @@ public class playerController : MonoBehaviour
     }
     void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime);
-        //transform.Translate(Vector3.up * Time.deltaTime, Space.World);
+        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+    Vector3 position = this.transform.position;
+    position.y++;
+    this.transform.position = position;
+	}
     }
 }
 	
