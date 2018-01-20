@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Trailer_runningforest.unity
+    guid: 94d96fbf3145a3d4ab51b4a415f5d5fa
