@@ -52,8 +52,8 @@ namespace DigitalRuby.RainMaker
         [Tooltip("X = minimum wind speed. Y = maximum wind speed. Z = sound multiplier. Wind speed is divided by Z to get sound multiplier value. Set Z to lower than Y to increase wind sound volume, or higher to decrease wind sound volume.")]
         public Vector3 WindSpeedRange = new Vector3(50.0f, 500.0f, 500.0f);
 
-       // [Tooltip("How often the wind speed and direction changes (minimum and maximum change interval in seconds)")]
-        //public Vector2 WindChangeInterval = new Vector2(5.0f, 30.0f);
+        [Tooltip("How often the wind speed and direction changes (minimum and maximum change interval in seconds)")]
+        public Vector2 WindChangeInterval = new Vector2(5.0f, 30.0f);
 
         [Tooltip("Whether wind should be enabled.")]
         public bool EnableWind = true;
@@ -74,7 +74,31 @@ namespace DigitalRuby.RainMaker
         {
             if (EnableWind && WindZone != null && WindSpeedRange.y > 1.0f)
             {
+                WindZone.gameObject.SetActive(true);
+                if (FollowCamera)
+                {
+                    WindZone.transform.position = Camera.transform.position;
+                }
+                if (!Camera.orthographic)
+                {
+                    WindZone.transform.Translate(0.0f, WindZone.radius, 0.0f);
+                }
+                if (nextWindTime < Time.time)
+                {
+                    WindZone.windMain = UnityEngine.Random.Range(WindSpeedRange.x, WindSpeedRange.y);
+                    WindZone.windTurbulence = UnityEngine.Random.Range(WindSpeedRange.x, WindSpeedRange.y);
+                    if (Camera.orthographic)
+                    {
+                        int val = UnityEngine.Random.Range(0, 2);
+                        WindZone.transform.rotation = Quaternion.Euler(0.0f, (val == 0 ? 90.0f : -90.0f), 0.0f);
+                    }
+                    else
+                    {
+                        WindZone.transform.rotation = Quaternion.Euler(UnityEngine.Random.Range(-30.0f, 30.0f), UnityEngine.Random.Range(0.0f, 360.0f), 0.0f);
+                    }
+                    nextWindTime = Time.time + UnityEngine.Random.Range(WindChangeInterval.x, WindChangeInterval.y);
                     audioSourceWind.Play((WindZone.windMain / WindSpeedRange.z) * WindSoundVolumeModifier);
+                }
             }
             else
             {
